@@ -13,7 +13,7 @@ describe 'the greatest wizard bio of all time' do
     end
   end
 
-  it 'has  6 items in the main nav' do
+  it 'has 6 items in the main nav' do
     nav_bar = page.find('ul#nav')
     expect(nav_bar).to have_css('li', count: 6)
   end
@@ -35,12 +35,47 @@ describe 'the greatest wizard bio of all time' do
     expect(book_faizaan).to have_css('a.button', text: 'Wizard me now')
   end
 
-  it 'has 7 social media sharing links'
-  it 'has an about section'
-  it 'has a link to download the wizards resume'
-  it 'has a testimonial by Harry Potter'
-  it "has a form field with the placeholder 'I no longer want to be a vegan'"
-  it 'has a section with the id of contact'
-  it "has an h1 tag with the content 'client testimonials'"
+  it 'has 7 social media sharing links' do
+     social_links = page.find('ul.social')
+     expect(social_links).to have_css('li', count: 7)
+  end
+
+  it 'has an about section' do
+    within(:css, "section#about") do
+      expect(page).to have_content("About Me")
+    end
+  end
+
+
+  it 'has a link to download the wizards resume' do
+   wizards_resume = page.find('div.download a')
+   expect(wizards_resume).to have_content('Download Resume')
+ end
+
+
+  it 'has a testimonial by Harry Potter' do
+    within(:css, "section#testimonials") do
+      expect(page).to have_css('cite', text: 'Harry Potter')
+    end
+  end
+
+  it "has a form field with the placeholder 'I no longer want to be a vegan'" do
+    within(:css, 'form#contactForm') do
+    expect(page).to have_css('input[placeholder="I no longer want to be a vegan"]')
+  end
+end
+
+  it 'has a section with the id of contact' do
+    within(:css, "section#contact") do
+      expect(page).to have_content("Get In Touch.")
+    end
+  end
+
+
+  it "has an h1 tag with the content 'client testimonials'" do
+    within(:css, "section#testimonials") do
+    expect(page).to have_content('Client Testimonials')
+  end
+end
 
 end

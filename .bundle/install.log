@@ -1,0 +1,22 @@
+# Logfile created on 2014-03-27 13:35:10 -0400 by logger.rb/41954
+I, [2014-03-27T13:35:10.339555 #18747]  INFO -- : 0:  mime-types (2.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/mime-types-2.2.gemspec
+I, [2014-03-27T13:35:14.700589 #18747]  INFO -- : 0:  mini_portile (0.5.3) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.5.3.gemspec
+I, [2014-03-27T13:38:34.642524 #18747]  INFO -- : 0:  nokogiri (1.6.1) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.1.gemspec
+I, [2014-03-27T13:38:34.662922 #18747]  INFO -- : 0:  rack (1.5.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-03-27T13:38:34.663703 #18747]  INFO -- : 0:  rack-test (0.6.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-03-27T13:38:34.664353 #18747]  INFO -- : 0:  xpath (2.0.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/xpath-2.0.0.gemspec
+I, [2014-03-27T13:38:36.182545 #18747]  INFO -- : 0:  capybara (2.2.1) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/capybara-2.2.1.gemspec
+I, [2014-03-27T13:38:36.183182 #18747]  INFO -- : 0:  coderay (1.1.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/coderay-1.1.0.gemspec
+I, [2014-03-27T13:38:36.183597 #18747]  INFO -- : 0:  diff-lcs (1.2.5) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-03-27T13:38:36.184011 #18747]  INFO -- : 0:  method_source (0.8.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/method_source-0.8.2.gemspec
+I, [2014-03-27T13:38:36.184426 #18747]  INFO -- : 0:  slop (3.5.0) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/slop-3.5.0.gemspec
+I, [2014-03-27T13:38:36.184846 #18747]  INFO -- : 0:  pry (0.9.12.6) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/pry-0.9.12.6.gemspec
+I, [2014-03-27T13:38:36.185420 #18747]  INFO -- : 0:  rack-protection (1.5.2) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.2.gemspec
+I, [2014-03-27T13:38:36.185906 #18747]  INFO -- : 0:  rspec-core (2.14.8) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-2.14.8.gemspec
+I, [2014-03-27T13:38:36.186325 #18747]  INFO -- : 0:  rspec-expectations (2.14.5) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-2.14.5.gemspec
+I, [2014-03-27T13:38:36.186712 #18747]  INFO -- : 0:  rspec-mocks (2.14.6) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-2.14.6.gemspec
+I, [2014-03-27T13:38:36.187090 #18747]  INFO -- : 0:  rspec (2.14.1) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/rspec-2.14.1.gemspec
+I, [2014-03-27T13:38:36.187473 #18747]  INFO -- : 0:  shotgun (0.9) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/shotgun-0.9.gemspec
+I, [2014-03-27T13:38:36.187852 #18747]  INFO -- : 0:  tilt (1.4.1) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-03-27T13:38:36.188228 #18747]  INFO -- : 0:  sinatra (1.4.4) from /usr/local/rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.4.gemspec
+I, [2014-03-27T13:38:36.188686 #18747]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
