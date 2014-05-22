@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background4.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -126,6 +126,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 	 padding: 0;
 	 border: none;
 	 outline: none;
+   background: #024959;
 }
 
 /* nav-wrap */
@@ -187,10 +188,11 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: /*#2B2B2B*/ #024959;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
+
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -236,7 +238,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: /*#fff*/ #F2EFDC;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -326,7 +328,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-  	width: 60%;
+  	width: 80%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
@@ -650,7 +652,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
